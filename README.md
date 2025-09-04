@@ -20,9 +20,13 @@ This repository is part of the **Fix and Learn challenge series**.Here you will:
 
 ## 📂 Repository structure
 
-- `challenge.py` → Contains the buggy/bad practice code.
-- `tests/test_challenge.py` → Unit tests designed to fail until you fix the code.
-- `README.md` → Context, story, and instructions for the challenge.
+- `bug-XX-challenge-name/`
+  - `challenge.py` → Buggy/bad-practice code for this challenge.
+  - `verify.py` → Lightweight script to validate your fix (prints PASS/FAIL).
+  - `__pycache__/` → Auto-generated Python cache files (can be ignored).
+- `.gitignore` → Specifies files and folders Git should ignore.
+- `LICENSE` → License information for this repository.
+- `README.md` → General context, story, and instructions.
 
 ---
 
@@ -30,7 +34,7 @@ This repository is part of the **Fix and Learn challenge series**.Here you will:
 
 1. Read the **Story / Context** section in the README inside each challenge.
 2. Explore the code in `challenge.py`.
-3. Run the tests with:
+3. Run the validator with:
    ```bash
-   pytest
+   python verify.py
    ```
