@@ -1,9 +1,8 @@
 # 🐛 Fix and Learn — Odd Socks challenges repository
 
-Welcome to **Fix and Learn**, a collection of coding simulations where you practice solving real-world style bugs inside different business domains (ecommerce, fintech, booking apps, etc.).
+Welcome to **Fix and Learn – Odd Socks**, an e‑commerce simulation where you step into the shoes of a junior developer joining this online store. In this challenge you’ll encounter intentionally flawed Python code that miscounts socks and produces inventory errors.
 
-Each repository represents a **self-contained challenge** with broken or poorly written code.
-Your mission: **analyze, fix, and improve the codebase while thinking like a product-minded developer**.
+Your mission: analyse the broken logic, fix the bugs and refactor the module so that the application runs reliably and improves the customer experience.
 
 ---
 
