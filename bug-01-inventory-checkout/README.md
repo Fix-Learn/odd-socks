@@ -57,3 +57,15 @@ Fixing this bug is not only about Python dictionaries:
 - It teaches you to **map real-world problems** (overselling) into code.
 - You practice **state management** and **all-or-nothing logic**, both common in real ecommerce systems.
 - You learn to **decompose problems** into smaller functions that can be tested in isolation.
+
+## 🚀 Keep learning with Fix & Learn
+Enjoyed this exercise?
+Every week we share a new real-world style bug + fix so you can practice not just coding,
+but also thinking like a product-minded developer.
+
+👉 Subscribe to Fix & Learn and get these interactive cases delivered straight to you.
+Stay sharp, build better skills, and have fun while learning!
+
+🔗 [Subscribe here](https://dub.sh/lmZT4GP)
+
+See you next week, Fixer! 🛠️✨
