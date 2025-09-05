@@ -88,7 +88,7 @@ python verify.py
 When everything is working:
 
 - Verify that `python verify.py` shows all **PASS ✅**.
-- Submit your solution link via [this form](https://tally.so/r/fake-form-id).
+- Drop your solution [link here](https://dub.sh/ZH2HGi1). Each submission counts toward your streak and leaderboard standing ✨. Leaderboards are published weekly, together with the release of the next challenge.
 
 ## 💡 Why this matters
 
