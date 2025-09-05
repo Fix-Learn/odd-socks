@@ -2,8 +2,6 @@
   "name": "Fix & Learn – bug-01-inventory-checkout",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
 
-  "workspaceFolder": "${containerWorkspaceFolder}/bug-01-inventory-checkout",
-
   "customizations": {
     "vscode": {
       "extensions": [
@@ -11,10 +9,13 @@
         "ms-python.vscode-pylance"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "/usr/bin/python3"
+        "python.defaultInterpreterPath": "/usr/bin/python3",
+        "terminal.integrated.cwd": "/workspaces/${localWorkspaceFolderBasename}/bug-01-inventory-checkout"
       }
     }
   },
 
-  "postCreateCommand": "python -m pip install --upgrade pip && if [ -f requirements.txt ]; then pip install -r requirements.txt; fi"
+  "postCreateCommand": "python -m pip install --upgrade pip && if [ -f requirements.txt ]; then pip install -r requirements.txt; fi",
+
+  "postStartCommand": "if [ -d bug-01-inventory-checkout ]; then echo '✅ Found folder: bug-01-inventory-checkout' && ls -la bug-01-inventory-checkout; else echo '❌ Folder bug-01-inventory-checkout NOT found. Listing repo root:' && ls -la; fi"
 }
